@@ -19,7 +19,7 @@ body {
 }
 
 
-/* header*/
+/* header */
 
 .text-logo {
     font-family: Raleway;
@@ -50,3 +50,33 @@ body {
 .header-address-item {
     color: #757575;
 }
+
+
+/* main */
+
+/* hero */
+
+.hero-title {
+    font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+/* or 136% */
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+
+.hero-btn {
+font-weight: bold;
+font-size: 16px;
+line-height: 1.87;
+/* identical to box height, or 187% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+background-color: #2196F3;
+color: #ffffff;
+}
+
