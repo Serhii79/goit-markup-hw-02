@@ -1,0 +1,52 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color:#757575;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.link:hover,
+.link:focus {
+    color: #2196F3;;
+}
+
+
+/* header*/
+
+.text-logo {
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;    
+    /* identical to box height */
+    letter-spacing: 0.03em;
+
+    color: #2196F3;
+}
+
+.text-logo-black {
+    color: #212121;
+}
+
+.navigation-list-item,
+.header-address-item {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.navigation-list-item {
+    color: #212121;
+}
+
+.header-address-item {
+    color: #757575;
+}
