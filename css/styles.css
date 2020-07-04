@@ -64,6 +64,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    /* color: #ffffff; */
 }
 
 .hero-btn {
@@ -93,5 +94,25 @@ body {
 .features-description {
     line-height: 1.71;
     /* or 171% */
+}
+
+/* specialization */
+
+.specialization-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+
+    color: #212121;
+}
+
+.specialization-description {
+    font-weight: bold;
+    line-height: 1.14;
+    text-align: center;
+    text-transform: uppercase;
+
+    /* color: #FFFFFF; */
 }
 
