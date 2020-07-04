@@ -98,7 +98,8 @@ body {
 
 /* specialization */
 
-.specialization-title {
+.specialization-title,
+.team-title  {
     font-weight: bold;
     font-size: 36px;
     line-height: 1.16;
@@ -115,4 +116,25 @@ body {
 
     /* color: #FFFFFF; */
 }
+
+/* team */
+
+/* team-title подключено к .specialization-title */
+
+.team-member,
+.team-position {
+    font-size: 16px;
+    line-height: 1.18;
+    /* identical to box height */
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.team-member {
+    font-weight: 500;
+    
+    color: #212121;
+}
+
+/* member-social-list ожидают следующего урока */
 
