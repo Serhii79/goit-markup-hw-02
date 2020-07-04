@@ -99,7 +99,8 @@ body {
 /* specialization */
 
 .specialization-title,
-.team-title  {
+.team-title,
+.customers-title  {
     font-weight: bold;
     font-size: 36px;
     line-height: 1.16;
@@ -136,5 +137,8 @@ body {
     color: #212121;
 }
 
-/* member-social-list ожидают следующего урока */
+/* social-links-item ожидают следующего урока */
 
+/* customers */
+
+/* customers-title подключено к .specialization-title */
