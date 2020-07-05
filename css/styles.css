@@ -176,3 +176,22 @@ body {
         
     color: rgba(255, 255, 255, 0.4);
 }
+
+.portfolio-btn {
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+/* identical to box height, or 162% */
+text-align: center;
+
+background: #F5F4FA;
+border-radius: 4px;
+color: #212121;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    background: #2196F3;
+    color: #ffffff;
+}
+
