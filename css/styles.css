@@ -1,9 +1,18 @@
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --description-color: #757575;
+    --title-background-light-color: #ffffff;
+    --title-dark-color: #212121;
+    --accent-color: #2196F3;
+
+}
+
 body {
-    background-color: #ffffff;
-    font-family: 'Roboto', sans-serif;
+    background-color: var(--title-background-light-color);
+    font-family: var(--main-font);
     font-size: 14px;
     letter-spacing: 0.03em;
-    color:#757575;
+    color: var(--description-color);
 }
 
 .link {
@@ -16,7 +25,7 @@ body {
 
 .link:hover,
 .link:focus {
-    color: #2196F3;;
+    color: var(--accent-color);
 }
 
 
@@ -29,15 +38,15 @@ body {
     line-height: 1.19;    
     /* identical to box height */
     
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .text-logo-black {
-    color: #212121;
+    color: var(--title-dark-color);
 }
 
 .text-logo-white {
-    color: #ffffff;
+    color: var(--title-background-light-color);
 }
 
 .navigation-list-item,
@@ -49,11 +58,11 @@ body {
 }
 
 .navigation-list-item {
-    color: #212121;
+    color: var(--title-dark-color);
 }
 
 .header-address-item {
-    color: #757575;
+    color: var(--description-color);
 }
 
 
@@ -82,8 +91,8 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
 
-    background-color: #2196F3;
-    color: #ffffff;
+    background: #188CE8;
+    color: var(--title-background-light-color);
 }
 
 /* features */
@@ -93,7 +102,7 @@ body {
     line-height: 1.14;
     text-transform: uppercase;
 
-    color: #212121;
+    color: var(--title-dark-color);
 }
 
 .features-description {
@@ -111,7 +120,7 @@ body {
     line-height: 1.16;
     text-align: center;
 
-    color: #212121;
+    color: var(--title-dark-color);
 }
 
 .specialization-description {
@@ -139,7 +148,7 @@ body {
 .team-member {
     font-weight: 500;
     
-    color: #212121;
+    color: var(--title-dark-color);
 }
 
 /* social-links-item ожидают следующего урока */
@@ -153,7 +162,7 @@ body {
 /* footer */
 
 .footer {
-    background-color: #2F303A;;
+    background-color: #2F303A;
 }
 
 /* text-logo link прописан в header */
@@ -161,7 +170,7 @@ body {
 .footer-address-list {
     font-style: normal;
 
-    color: #ffffff;
+    color: var(--title-background-light-color);
 }
 
 .footer-address-item {
@@ -176,7 +185,7 @@ body {
     line-height: 1.14;
     text-transform: uppercase;
 
-    color: #FFFFFF;
+    color: var(--title-background-light-color);
 }
 
 .footer-basement {
@@ -197,13 +206,13 @@ text-align: center;
 
 background: #F5F4FA;
 border-radius: 4px;
-color: #212121;
+color: var(--title-dark-color);
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-    background: #2196F3;
-    color: #ffffff;
+    background: var(--accent-color);
+    color: var(--title-background-light-color);
 }
 
 .portfolio-main-list-item-title {
@@ -215,7 +224,7 @@ color: #212121;
     text-align: center;
     text-transform: capitalize;
     
-    color: #212121;
+    color: var(--title-dark-color);
 }
 
 .portfolio-main-description {
